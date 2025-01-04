@@ -73,10 +73,25 @@ li {
 	position: relative;
 }
 
-.services {
-	height: 620vh;
-	position: relative;
+@media (max-width: 1025px) {
+	.services {
+		height: 620vh;
+		position: relative;
+
+	}
 }
+
+/* Media Query for Large screens */
+@media (max-width: 1281px) {
+	.services {
+		height: 475vh;
+		position: relative;
+
+	}
+}
+
+
+
 
 .services,
 .work,
