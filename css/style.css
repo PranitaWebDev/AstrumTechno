@@ -762,3 +762,15 @@ li {
 		background-size: 22px 34px;
 	}
 }
+
+.border-circle {
+	border: 3px solid #8ab9c7;
+	border-radius: 50%;
+	object-fit: fill;
+	
+}
+
+.border-box {
+	border: 2px solid #577e8a;
+	box-shadow: rgb(64 131 143 / 35%) 0px 5px 15px;
+}
