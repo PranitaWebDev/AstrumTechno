@@ -66,10 +66,21 @@ li {
 .home,
 .about,
 
-.plans,
+
 .work,
 .contact {
 	height: 110vh;
+	position: relative;
+}
+
+.services {
+	height: 622vh;
+	position: relative;
+
+}
+
+.plans {
+	height: 50vh;
 	position: relative;
 }
 
@@ -114,8 +125,8 @@ li {
 }
 
 /* Gradient Border And Background On Icons */
-.home_text,
-.home .fas,
+
+
 .plans .far,
 .information .fas,
 .work .fas,
@@ -128,7 +139,17 @@ li {
 			left bottom,
 			from(#a5e2e9),
 			to(#00dabf));
-	background-clip: text;
+
+
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.home_text,
+.home .fas {
+	background: -webkit-gradient(linear, left top, left bottom, from(#5c9aaf), to(#11383d));
+
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -156,8 +177,9 @@ li {
 }
 
 .navbar .navbar-brand {
-	padding-top: 0.25rem;
+	padding-top: 0rem;
 	padding-bottom: 0.25rem;
+	padding-right: 0.25rem;
 }
 
 .navbar .logo-image img {
@@ -166,7 +188,7 @@ li {
 }
 
 .navbar .logo-text {
-	color: #fff;
+	color: #25525b;
 	font-weight: 500;
 	line-height: 1rem;
 	font-size: 1.575rem;
@@ -277,11 +299,13 @@ li {
 /*     Home     */
 /****************/
 .home {
-	background-image: url(../assets/images/home.jpg);
+	background-image: url(../assets/images/home1.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	object-fit: fill;
+
 }
 
 .para {
@@ -656,7 +680,7 @@ li {
 		box-shadow: none;
 		transition: all 0.2s;
 		padding-top: 1.75rem;
-		background-color: transparent;
+		background-color: #53ded4;
 	}
 
 	.navbar.top-nav-collapse {
