@@ -107,6 +107,10 @@ li {
 	object-fit: fill;
 }
 
+.home-text {
+	display: none;
+}
+
 .navbar-toggler-icon {
 	background-color: #6299bf !important;
 }
@@ -344,7 +348,8 @@ li {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	object-fit: fill;
+	;
+	/* object-fit: fill; */
 
 }
 
@@ -800,6 +805,12 @@ li {
 		right: -16px;
 		width: 22px;
 		background-size: 22px 34px;
+	}
+
+	.home-text {
+		display: block;
+		color: #030607 !important;
+		background-color: azure !important;
 	}
 }
 
