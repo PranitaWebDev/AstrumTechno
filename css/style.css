@@ -74,7 +74,7 @@ li {
 }
 
 .services {
-	height: 630vh;
+	height: 180vh;
 	position: relative;
 
 }
@@ -120,6 +120,7 @@ li {
 	color: #6299bf !important;
 	;
 }
+
 
 @media (max-width: 1025px) {
 	.services {
